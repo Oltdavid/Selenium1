@@ -33,8 +33,7 @@ public class GoogleTest {
         );
 
         acceptCookies.click();
-
-        driver.quit();
-        //new comment
+        //driver.quit();
+        //new comment3
     }
 }

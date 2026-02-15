@@ -35,6 +35,6 @@ public class GoogleTest {
         acceptCookies.click();
 
         driver.quit();
-        //test4
+        //test5
     }
 }

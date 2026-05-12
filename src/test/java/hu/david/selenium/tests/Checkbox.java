@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class Herokuapp_checkbox {
+public class Checkbox {
 
     private WebDriver driver;
 
@@ -23,7 +23,7 @@ public class Herokuapp_checkbox {
     }
 
     @Test
-    void checkboxTest() {
+    void add_remove_element() {
         HomePage homePage = new HomePage(driver);
         homePage.open();
         homePage.clickCheckboxes();
